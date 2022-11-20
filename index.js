@@ -1,3 +1,6 @@
+let start1 = 1
+let start10 = 10
+let start8 = 8
 
 const {
 	default: makeWASocket,
@@ -85,10 +88,8 @@ const connectToWA = () => {
 
 				//......................................................Commands..............................................................\\
 
+				// Arrow.........................
 				case 'arrow': {
-					let start1 = 1
-					let start2 = 10
-					let start3 = 8
 
 					if (!isSUB) return
 
@@ -101,7 +102,12 @@ const connectToWA = () => {
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+					conn.sendMessage(from, { text: 'arrowseason1' })
 
+				}
+					break
+				case 'arrowseason1': {
+					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
 					for (let i = 1; i <= 9; i++) {
 
@@ -115,18 +121,23 @@ const connectToWA = () => {
 					}
 					for (let i = 10; i <= 23; i++) {
 
-						const filenum = start2++
+						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E' + filenum + '_2013_@nadithpro.mkv' },
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S01E' + filenum + ' 2013 .mkv'
 						})
-					}
+					}conn.sendMessage(from, { text: 'arrowseason2' })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
+				case 'arrowseason2': {
+					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪②' }) // Season - 2
 					for (let i = 1; i <= 9; i++) {
-						
+
 						const filenum = start1++
 
 						await conn.sendMessage(config.GROUPJID, {
@@ -136,19 +147,24 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-						
-						const filenum = start2++
+
+						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S02E' + filenum + '_2014_@nadithpro.mkv' },
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S02E' + filenum + ' 2014 .mkv'
 						})
-					}
+					}conn.sendMessage(from, { text: 'arrowseason3' })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
+				case 'arrowseason3': {
+					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪③' }) // Season - 3
 					for (let i = 1; i <= 9; i++) {
-						
+
 						const filenum = start1++
 
 						await conn.sendMessage(config.GROUPJID, {
@@ -158,19 +174,24 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-						
-						const filenum = start2++
+
+						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S03E' + filenum + '_2015_@nadithpro.mkv' },
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S03E' + filenum + ' 2015 .mkv'
 						})
-					}
+					}conn.sendMessage(from, { text: 'arrowseason4' })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
+				case 'arrowseason4': {
+					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪④' }) // Season - 4
 					for (let i = 1; i <= 9; i++) {
-						
+
 						const filenum = start1++
 
 						await conn.sendMessage(config.GROUPJID, {
@@ -180,19 +201,24 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-						
-						const filenum = start2++
+
+						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S04E' + filenum + '_2016_@nadithpro.mkv' },
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S04E' + filenum + ' 2016 .mkv'
 						})
-					}
+					}conn.sendMessage(from, { text: 'arrowseason5' })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
+				case 'arrowseason5': {
+					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑤' }) // Season - 5
 					for (let i = 1; i <= 9; i++) {
-						
+
 						const filenum = start1++
 
 						await conn.sendMessage(config.GROUPJID, {
@@ -202,19 +228,24 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-						
-						const filenum = start2++
+
+						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S05E' + filenum + '_2017_@nadithpro.mkv' },
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S05E' + filenum + ' 2017 .mkv'
 						})
-					}
+					}conn.sendMessage(from, { text: 'arrowseason6' })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
+				case 'arrowseason6': {
+					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑥' }) // Season - 6
 					for (let i = 1; i <= 9; i++) {
-						
+
 						const filenum = start1++
 
 						await conn.sendMessage(config.GROUPJID, {
@@ -224,19 +255,24 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-						
-						const filenum = start2++
+
+						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S06E' + filenum + '_2018_@nadithpro.mkv' },
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S06E' + filenum + ' 2018 .mkv'
 						})
-					}
+					}conn.sendMessage(from, { text: 'arrowseason7' })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
+				case 'arrowseason7': {
+					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑦' }) // Season - 7
 					for (let i = 1; i <= 9; i++) {
-						
+
 						const filenum = start1++
 
 						await conn.sendMessage(config.GROUPJID, {
@@ -246,19 +282,24 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 22; i++) {
-						
-						const filenum = start2++
+
+						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S07E' + filenum + '_2019_@nadithpro.mkv' },
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S07E' + filenum + ' 2019 .mkv'
 						})
-					}
+					}conn.sendMessage(from, { text: 'arrowseason8' })
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
 
+				case 'arrowseason8': {
+					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑧' }) // Season - 8
 					for (let i = 1; i <= 7; i++) {
-						
+
 						const filenum = start1++
 
 						await conn.sendMessage(config.GROUPJID, {
@@ -268,8 +309,8 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 8; i <= 9; i++) {
-						
-						const filenum = start3++
+
+						const filenum = start8++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S08E0' + filenum + '_2020_@nadithpro.mkv' },
@@ -277,19 +318,20 @@ const connectToWA = () => {
 							fileName: '@nadithpro Arrow S08E' + filenum + ' 2020 .mkv'
 						})
 					}
-					await conn.sendMessage(config.GROUPJID, { 
+					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S08E10_2020_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro Arrow S08E10 2020 .mkv'
 					})
-
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
+
+
 				case 'flash': {
 					let start1 = 1
-					let start2 = 10
+					let start10 = 10
 
 					if (!isSUB) return
 
@@ -317,7 +359,7 @@ const connectToWA = () => {
 					}
 					for (let i = 10; i <= 23; i++) {
 
-						const filenum = start2++
+						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E' + filenum + '_2013_@nadithpro.mkv' },
