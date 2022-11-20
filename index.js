@@ -128,8 +128,6 @@ const connectToWA = () => {
 
 						const filenum = start1++
 
-						console.log(filenum)
-
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S02E0' + filenum + '_2013_@nadithpro.mkv' },
 							mimetype: config.MKVTYPE,
