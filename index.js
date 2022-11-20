@@ -116,14 +116,23 @@ const connectToWA = () => {
 							fileName: '@nadithpro Arrow S01E0' + filenum + ' .mp4'
 						})
 					}
+					for (let i = 10; i <= 23; i++) {
 
-					
+						const filenum = start1++
+
+						await conn.sendMessage(config.GROUPJID, {
+							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E' + filenum + '.mkv' },
+							mimetype: config.MP4TYPE,
+							fileName: '@nadithpro Arrow S01E' + filenum + ' .mp4'
+						})
+					}
+
 
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case 'arrow': {
+				case 'flash': {
 
 					if (!isSUB) return
 
