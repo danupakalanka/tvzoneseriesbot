@@ -102,7 +102,7 @@ const connectToWA = () => {
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
-					conn.sendMessage(from, { text: 'arrowseason1' })
+					conn.sendMessage(from, { text: '.arrowseason1' })
 
 				}
 					break
@@ -128,7 +128,7 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S01E' + filenum + ' 2013 .mkv'
 						})
-					}conn.sendMessage(from, { text: 'arrowseason2' })
+					}conn.sendMessage(from, { text: '.arrowseason2' })
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
@@ -155,7 +155,7 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S02E' + filenum + ' 2014 .mkv'
 						})
-					}conn.sendMessage(from, { text: 'arrowseason3' })
+					}conn.sendMessage(from, { text: '.arrowseason3' })
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
@@ -182,7 +182,7 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S03E' + filenum + ' 2015 .mkv'
 						})
-					}conn.sendMessage(from, { text: 'arrowseason4' })
+					}conn.sendMessage(from, { text: '.arrowseason4' })
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
@@ -209,7 +209,7 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S04E' + filenum + ' 2016 .mkv'
 						})
-					}conn.sendMessage(from, { text: 'arrowseason5' })
+					}conn.sendMessage(from, { text: '.arrowseason5' })
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
@@ -236,7 +236,7 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S05E' + filenum + ' 2017 .mkv'
 						})
-					}conn.sendMessage(from, { text: 'arrowseason6' })
+					}conn.sendMessage(from, { text: '.arrowseason6' })
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
@@ -263,7 +263,7 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S06E' + filenum + ' 2018 .mkv'
 						})
-					}conn.sendMessage(from, { text: 'arrowseason7' })
+					}conn.sendMessage(from, { text: '.arrowseason7' })
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
@@ -290,7 +290,7 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S07E' + filenum + ' 2019 .mkv'
 						})
-					}conn.sendMessage(from, { text: 'arrowseason8' })
+					}conn.sendMessage(from, { text: '.arrowseason8' })
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
