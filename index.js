@@ -91,7 +91,6 @@ const connectToWA = () => {
 				case 'arrow': {
 
 					if (!isSUB) return
-
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
@@ -99,7 +98,6 @@ const connectToWA = () => {
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/b045071036852fadac8a1.jpg" }
 					})
-
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
@@ -281,7 +279,6 @@ const connectToWA = () => {
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro Arrow S08E10 2020 .mkv'
 					})
-
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
