@@ -86,6 +86,7 @@ const connectToWA = () => {
 				//......................................................Commands..............................................................\\
 
 				case 'arrow': {
+					let start1 = 1
 					let start2 = 10
 
 					if (!isSUB) return
@@ -100,10 +101,11 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
+					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' })
+
 					for (let i = 1; i <= 9; i++) {
 						
-						let numstart = 1
-						const filenum = numstart++
+						const filenum = start1++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E0' + filenum + '_2012_@nadithpro.mkv' },
@@ -113,8 +115,7 @@ const connectToWA = () => {
 					}
 					for (let i = 10; i <= 23; i++) {
 						
-						let numstart = 1
-						const filenum = numstart++
+						const filenum = start2++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E' + filenum + '_2013_@nadithpro.mkv' },
