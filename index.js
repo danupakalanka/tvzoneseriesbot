@@ -328,7 +328,6 @@ const connectToWA = () => {
 					break
 
 
-
 				case 'flash': {
 					let start1 = 1
 					let start10 = 10
