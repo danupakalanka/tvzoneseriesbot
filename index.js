@@ -104,8 +104,8 @@ const connectToWA = () => {
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
 					for (let i = 1; i <= 9; i++) {
-
-						const filenum = start1++
+						let start = 1
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E0' + filenum + '_2012_@nadithpro.mkv' },
@@ -114,8 +114,8 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-
-						const filenum = start10++
+						let start = 10
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E' + filenum + '_2013_@nadithpro.mkv' },
@@ -126,8 +126,8 @@ const connectToWA = () => {
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪②' }) // Season - 2
 					for (let i = 1; i <= 9; i++) {
-
-						const filenum = start1++
+						let start = 1
+						const filenum = start++
 
 						console.log(filenum)
 
@@ -138,8 +138,8 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-
-						const filenum = start10++
+						let start = 10
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S02E' + filenum + '_2014_@nadithpro.mkv' },
@@ -150,8 +150,8 @@ const connectToWA = () => {
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪③' }) // Season - 3
 					for (let i = 1; i <= 9; i++) {
-
-						const filenum = start1++
+						let start = 1
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S03E0' + filenum + '_2014_@nadithpro.mkv' },
@@ -160,8 +160,8 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-
-						const filenum = start10++
+						let start = 10
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S03E' + filenum + '_2015_@nadithpro.mkv' },
@@ -172,8 +172,8 @@ const connectToWA = () => {
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪④' }) // Season - 4
 					for (let i = 1; i <= 9; i++) {
-
-						const filenum = start1++
+						let start = 1
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S04E0' + filenum + '_2015_@nadithpro.mkv' },
@@ -182,8 +182,8 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-
-						const filenum = start10++
+						let start = 10
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S04E' + filenum + '_2016_@nadithpro.mkv' },
@@ -194,8 +194,8 @@ const connectToWA = () => {
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑤' }) // Season - 5
 					for (let i = 1; i <= 9; i++) {
-
-						const filenum = start1++
+						let start = 1
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S05E0' + filenum + '_2016_@nadithpro.mkv' },
@@ -204,7 +204,7 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-
+						let start = 10
 						const filenum = start10++
 
 						await conn.sendMessage(config.GROUPJID, {
@@ -216,8 +216,8 @@ const connectToWA = () => {
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑥' }) // Season - 6
 					for (let i = 1; i <= 9; i++) {
-
-						const filenum = start1++
+						let start = 1
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S06E0' + filenum + '_2017_@nadithpro.mkv' },
@@ -226,8 +226,8 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 23; i++) {
-
-						const filenum = start10++
+						let start = 10
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S06E' + filenum + '_2018_@nadithpro.mkv' },
@@ -238,8 +238,8 @@ const connectToWA = () => {
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑦' }) // Season - 7
 					for (let i = 1; i <= 9; i++) {
-
-						const filenum = start1++
+						let start = 1
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S07E0' + filenum + '_2018_@nadithpro.mkv' },
@@ -248,8 +248,8 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 10; i <= 22; i++) {
-
-						const filenum = start10++
+						let start = 10
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S07E' + filenum + '_2019_@nadithpro.mkv' },
@@ -260,8 +260,8 @@ const connectToWA = () => {
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑧' }) // Season - 8
 					for (let i = 1; i <= 7; i++) {
-
-						const filenum = start1++
+						let start = 1
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S08E0' + filenum + '_2019_@nadithpro.mkv' },
@@ -270,8 +270,8 @@ const connectToWA = () => {
 						})
 					}
 					for (let i = 8; i <= 9; i++) {
-
-						const filenum = start8++
+						let start = 8
+						const filenum = start++
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S08E0' + filenum + '_2020_@nadithpro.mkv' },
