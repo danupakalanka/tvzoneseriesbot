@@ -102,14 +102,32 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
-					
+					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
+					for (let i = 1; i <= 9; i++) {
+
+						const filenum = start1++
+
+						await conn.sendMessage(config.GROUPJID, {
+							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E0' + filenum + '_2012_@nadithpro.mkv' },
+							mimetype: config.MKVTYPE,
+							fileName: '@nadithpro Arrow S01E0' + filenum + ' 2012 .mkv'
+						})
+					}
+					for (let i = 10; i <= 23; i++) {
+
+						const filenum = start2++
+
+						await conn.sendMessage(config.GROUPJID, {
+							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E' + filenum + '_2013_@nadithpro.mkv' },
+							mimetype: config.MKVTYPE,
+							fileName: '@nadithpro Arrow S01E' + filenum + ' 2013 .mkv'
+						})
+					}
 
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪②' }) // Season - 2
 					for (let i = 1; i <= 9; i++) {
 						
 						const filenum = start1++
-
-						console.log(filenum)
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S02E0' + filenum + '_2013_@nadithpro.mkv' },
