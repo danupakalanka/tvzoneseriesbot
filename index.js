@@ -104,7 +104,7 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' })
 
-					for (let i = 1; i <= 9; i++) {
+					for (let i = 1; i <= 5; i++) {
 
 						let start = 1
 						const filenum = start++
@@ -113,17 +113,6 @@ const connectToWA = () => {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E0' + filenum + '.mkv' },
 							mimetype: config.MP4TYPE,
 							fileName: '@nadithpro Arrow S01E0' + filenum + ' .mp4'
-						})
-					}
-					for (let i = 10; i <= 23; i++) {
-
-						let start = 1
-						const filenum1 = start1++
-
-						await conn.sendMessage(config.GROUPJID, {
-							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S01E' + filenum1 + '.mkv' },
-							mimetype: config.MP4TYPE,
-							fileName: '@nadithpro Arrow S01E' + filenum1 + ' .mp4'
 						})
 					}
 
