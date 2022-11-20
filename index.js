@@ -88,7 +88,6 @@ const connectToWA = () => {
 
 				//......................................................Commands..............................................................\\
 
-				// Arrow.........................
 				case 'arrow': {
 
 					if (!isSUB) return
@@ -102,12 +101,7 @@ const connectToWA = () => {
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
-					conn.sendMessage(from, { text: '.arrowseason1' })
 
-				}
-					break
-				case 'arrowseason1': {
-					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
 					for (let i = 1; i <= 9; i++) {
 
@@ -128,17 +122,14 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S01E' + filenum + ' 2013 .mkv'
 						})
-					}conn.sendMessage(from, { text: '.arrowseason2' })
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-				}
-					break
+					}
 
-				case 'arrowseason2': {
-					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪②' }) // Season - 2
 					for (let i = 1; i <= 9; i++) {
 
 						const filenum = start1++
+
+						console.log(filenum)
 
 						await conn.sendMessage(config.GROUPJID, {
 							document: { url: 'https://cloud.nadith.pro/en_tv/Arrow_S02E0' + filenum + '_2013_@nadithpro.mkv' },
@@ -155,13 +146,8 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S02E' + filenum + ' 2014 .mkv'
 						})
-					}conn.sendMessage(from, { text: '.arrowseason3' })
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-				}
-					break
+					}
 
-				case 'arrowseason3': {
-					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪③' }) // Season - 3
 					for (let i = 1; i <= 9; i++) {
 
@@ -182,13 +168,8 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S03E' + filenum + ' 2015 .mkv'
 						})
-					}conn.sendMessage(from, { text: '.arrowseason4' })
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-				}
-					break
+					}
 
-				case 'arrowseason4': {
-					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪④' }) // Season - 4
 					for (let i = 1; i <= 9; i++) {
 
@@ -209,13 +190,8 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S04E' + filenum + ' 2016 .mkv'
 						})
-					}conn.sendMessage(from, { text: '.arrowseason5' })
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-				}
-					break
+					}
 
-				case 'arrowseason5': {
-					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑤' }) // Season - 5
 					for (let i = 1; i <= 9; i++) {
 
@@ -236,13 +212,8 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S05E' + filenum + ' 2017 .mkv'
 						})
-					}conn.sendMessage(from, { text: '.arrowseason6' })
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-				}
-					break
+					}
 
-				case 'arrowseason6': {
-					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑥' }) // Season - 6
 					for (let i = 1; i <= 9; i++) {
 
@@ -263,13 +234,8 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S06E' + filenum + ' 2018 .mkv'
 						})
-					}conn.sendMessage(from, { text: '.arrowseason7' })
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-				}
-					break
+					}
 
-				case 'arrowseason7': {
-					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑦' }) // Season - 7
 					for (let i = 1; i <= 9; i++) {
 
@@ -290,13 +256,8 @@ const connectToWA = () => {
 							mimetype: config.MKVTYPE,
 							fileName: '@nadithpro Arrow S07E' + filenum + ' 2019 .mkv'
 						})
-					}conn.sendMessage(from, { text: '.arrowseason8' })
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-				}
-					break
+					}
 
-				case 'arrowseason8': {
-					if (!isSUB) return
 					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑧' }) // Season - 8
 					for (let i = 1; i <= 7; i++) {
 
@@ -323,10 +284,10 @@ const connectToWA = () => {
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro Arrow S08E10 2020 .mkv'
 					})
+
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
-
 
 				case 'flash': {
 					let start1 = 1
