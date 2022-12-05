@@ -285,7 +285,7 @@ const connectToWA = () => {
 
 				case 'deception': {
 
-					
+					if (!isSUB) return
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(from, {
@@ -322,7 +322,7 @@ const connectToWA = () => {
 
 				case 'got': {
 
-					
+					if (!isSUB) return
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(from, {
@@ -456,7 +456,7 @@ const connectToWA = () => {
 
 				case 'kungfupandathedragonknight': {
 
-					
+					if (!isSUB) return
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(from, {
