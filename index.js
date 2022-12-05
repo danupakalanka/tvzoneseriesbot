@@ -90,7 +90,7 @@ const connectToWA = () => {
 
 				case 'arrow': {
 
-					
+					if (!isSUB) return
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(from, {
