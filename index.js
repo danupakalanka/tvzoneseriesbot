@@ -100,7 +100,7 @@ const connectToWA = () => {
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
@@ -121,7 +121,7 @@ const connectToWA = () => {
 						})
 					} start10 = 10
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪②' }) // Season - 2
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪②' }) // Season - 2
 					for (let i = 1; i <= 9; i++) {
 
 						const filenum = start1++
@@ -143,7 +143,7 @@ const connectToWA = () => {
 						})
 					} start10 = 10
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪③' }) // Season - 3
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪③' }) // Season - 3
 					for (let i = 1; i <= 9; i++) {
 
 						const filenum = start1++
@@ -165,7 +165,7 @@ const connectToWA = () => {
 						})
 					} start10 = 10
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪④' }) // Season - 4
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪④' }) // Season - 4
 					for (let i = 1; i <= 9; i++) {
 
 						const filenum = start1++
@@ -187,7 +187,7 @@ const connectToWA = () => {
 						})
 					} start10 = 10
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑤' }) // Season - 5
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑤' }) // Season - 5
 					for (let i = 1; i <= 9; i++) {
 
 						const filenum = start1++
@@ -209,7 +209,7 @@ const connectToWA = () => {
 						})
 					} start10 = 10
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑥' }) // Season - 6
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑥' }) // Season - 6
 					for (let i = 1; i <= 9; i++) {
 
 						const filenum = start1++
@@ -231,7 +231,7 @@ const connectToWA = () => {
 						})
 					} start10 = 10
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑦' }) // Season - 7
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑦' }) // Season - 7
 					for (let i = 1; i <= 9; i++) {
 
 						const filenum = start1++
@@ -253,7 +253,7 @@ const connectToWA = () => {
 						})
 					} start10 = 10
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑧' }) // Season - 8
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑧' }) // Season - 8
 					for (let i = 1; i <= 7; i++) {
 
 						const filenum = start1++
@@ -295,7 +295,7 @@ const connectToWA = () => {
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
@@ -332,7 +332,7 @@ const connectToWA = () => {
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
@@ -348,7 +348,7 @@ const connectToWA = () => {
 						fileName: '@nadithpro Game Of Thrones S01E10 2011 18+ .mkv'
 					})
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪②' }) // Season - 2
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪②' }) // Season - 2
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
@@ -364,7 +364,7 @@ const connectToWA = () => {
 						fileName: '@nadithpro Game Of Thrones S02E10 2012 18+ .mkv'
 					})
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪③' }) // Season - 3
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪③' }) // Season - 3
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
@@ -380,7 +380,7 @@ const connectToWA = () => {
 						fileName: '@nadithpro Game Of Thrones S03E10 2013 18+ .mkv'
 					})
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪④' }) // Season - 4
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪④' }) // Season - 4
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
@@ -396,7 +396,7 @@ const connectToWA = () => {
 						fileName: '@nadithpro Game Of Thrones S04E10 2014 18+ .mkv'
 					})
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑤' }) // Season - 5
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑤' }) // Season - 5
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
@@ -412,7 +412,7 @@ const connectToWA = () => {
 						fileName: '@nadithpro Game Of Thrones S05E10 2015 18+ .mkv'
 					})
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑥' }) // Season - 6
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑥' }) // Season - 6
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
@@ -428,7 +428,7 @@ const connectToWA = () => {
 						fileName: '@nadithpro Game Of Thrones S06E10 2016 18+ .mkv'
 					})
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑦' }) // Season - 7
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑦' }) // Season - 7
 					for (let i = 1; i <= 7; i++) {
 						const filenum = start1++
 
@@ -439,7 +439,7 @@ const connectToWA = () => {
 						})
 					} start1 = 1
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑧' }) // Season - 8
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪⑧' }) // Season - 8
 					for (let i = 1; i <= 6; i++) {
 						const filenum = start1++
 
@@ -466,7 +466,7 @@ const connectToWA = () => {
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
-					conn.sendMessage(config.GROUPJID, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
+					conn.sendMessage(from, { text: '🅂🄴🄰🅂🄾🄽 ⓪①' }) // Season - 1
 					for (let i = 1; i <= 9; i++) {
 						const filenum = start1++
 
